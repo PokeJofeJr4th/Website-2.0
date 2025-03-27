@@ -2,7 +2,7 @@
   "name": "webbed-site-2.0",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/PokeJofeJr4th/Website-2.0#readme",
+  "homepage": "https://PokeJofeJr4th.github.io/Website-2.0",
   "bugs": {
     "url": "https://github.com/PokeJofeJr4th/Website-2.0/issues"
   },
@@ -15,9 +15,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "webbed-site-2.0": "file:"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
