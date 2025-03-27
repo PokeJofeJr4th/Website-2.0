@@ -1,0 +1,23 @@
+{
+  "name": "webbed-site-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PokeJofeJr4th/Website-2.0#readme",
+  "bugs": {
+    "url": "https://github.com/PokeJofeJr4th/Website-2.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PokeJofeJr4th/Website-2.0.git"
+  },
+  "license": "ISC",
+  "author": "Abigail Cawley",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webbed-site-2.0": "file:"
+  }
+}
