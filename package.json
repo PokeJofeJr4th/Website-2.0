@@ -1,28 +1,15 @@
 {
-  "name": "webbed-site-2.0",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://PokeJofeJr4th.github.io/Website-2.0",
-  "bugs": {
-    "url": "https://github.com/PokeJofeJr4th/Website-2.0/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PokeJofeJr4th/Website-2.0.git"
-  },
-  "license": "ISC",
-  "author": "Abigail Cawley",
-  "type": "commonjs",
-  "main": "index.js",
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "webbed-site-2.0": "file:"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "": "file:",
+    "astro": "^5.5.5"
   }
 }
